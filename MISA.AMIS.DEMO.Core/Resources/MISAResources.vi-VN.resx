@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="customer" xml:space="preserve">
+    <value>khách hàng</value>
+  </data>
+  <data name="employee" xml:space="preserve">
+    <value>nhân viên</value>
+  </data>
+  <data name="Enum_Female" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="Enum_Male" xml:space="preserve">
+    <value>Nam</value>
+  </data>
+  <data name="Enum_Other" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="InValidMsg_AddressTooLong" xml:space="preserve">
+    <value>Địa chỉ không được vượt quá 255 kí tự</value>
+  </data>
+  <data name="InValidMsg_AuthenticationFail" xml:space="preserve">
+    <value>Xác thực thất bại</value>
+  </data>
+  <data name="InValidMsg_BankAccountTooLong" xml:space="preserve">
+    <value>Tải khoản ngân hàng không được vượt quá 20 kí tự</value>
+  </data>
+  <data name="InValidMsg_BankBranchTooLong" xml:space="preserve">
+    <value>Chi nhánh ngân hàng không được vượt quá 100 kí tự</value>
+  </data>
+  <data name="InValidMsg_BankNameTooLong" xml:space="preserve">
+    <value>Tên ngân hàng không được vượt quá 100 kí tự</value>
+  </data>
+  <data name="InValidMsg_CantGetNewCode" xml:space="preserve">
+    <value>Không lấy được mã Code mới. Vui lòng thử lại sau.</value>
+  </data>
+  <data name="InValidMsg_DataImportIsEmpty" xml:space="preserve">
+    <value>Dữ liệu nhập khẩu bị trống</value>
+  </data>
+  <data name="InValidMsg_DateIdentityInvalid" xml:space="preserve">
+    <value>Ngày cấp sai định dạng ngày tháng.</value>
+  </data>
+  <data name="InValidMsg_DateMustBefore" xml:space="preserve">
+    <value>Ngày đã chọn không được lớn hơn ngày hiện tại.</value>
+  </data>
+  <data name="InValidMsg_DateOfBirthInvalid" xml:space="preserve">
+    <value>Ngày sinh sai định dạng ngày tháng.</value>
+  </data>
+  <data name="InValidMsg_DateType" xml:space="preserve">
+    <value>Không đúng định dạng ngày tháng.</value>
+  </data>
+  <data name="InValidMsg_DepartmentCodeRequired" xml:space="preserve">
+    <value>Mã phòng ban không được để trống.</value>
+  </data>
+  <data name="InValidMsg_DepartmentCodeTooLong" xml:space="preserve">
+    <value>Mã phòng ban không được quá 20 kí tự.</value>
+  </data>
+  <data name="InValidMsg_DepartmentInvalid" xml:space="preserve">
+    <value>Phòng ban không hợp lệ</value>
+  </data>
+  <data name="InValidMsg_DepartmentNameRequired" xml:space="preserve">
+    <value>Tên phòng ban không được để trống.</value>
+  </data>
+  <data name="InValidMsg_DepartmentRequired" xml:space="preserve">
+    <value>Phòng ban không được để trống.</value>
+  </data>
+  <data name="InValidMsg_DuplicateEmployeeCode" xml:space="preserve">
+    <value>Mã nhân viên &lt;{0}&gt; đã tồn tại trong hệ thống</value>
+  </data>
+  <data name="InValidMsg_DuplicateInput" xml:space="preserve">
+    <value>Lỗi trùng lặp.</value>
+  </data>
+  <data name="InValidMsg_DuplicatePhoneNumber" xml:space="preserve">
+    <value>Số điện thoại &lt;{0}&gt; đã được đăng kí</value>
+  </data>
+  <data name="InValidMsg_EmailTooLong" xml:space="preserve">
+    <value>Email không được vượt quá 100 kí tự</value>
+  </data>
+  <data name="InValidMsg_EmployeeCodeInvalidImport" xml:space="preserve">
+    <value>Mã nhân viên đã tồn tại trong hệ thống.</value>
+  </data>
+  <data name="InValidMsg_EmployeeCodeInvalidImportInFile" xml:space="preserve">
+    <value>Mã nhân viên đã tồn tại trên tệp nhập khẩu.</value>
+  </data>
+  <data name="InValidMsg_EmployeeCodeRequired" xml:space="preserve">
+    <value>Mã nhân viên không được để trống.</value>
+  </data>
+  <data name="InValidMsg_EmployeeCodeTooLong" xml:space="preserve">
+    <value>Mã nhân viên không được quá 20 kí tự.</value>
+  </data>
+  <data name="InValidMsg_FileInvalidFormat" xml:space="preserve">
+    <value>File không đúng định dạng đã cung cấp.</value>
+  </data>
+  <data name="InValidMsg_FileInvalidLenght" xml:space="preserve">
+    <value>File đang trống, vui lòng kiểm tra lại.</value>
+  </data>
+  <data name="InValidMsg_FileInvalidType" xml:space="preserve">
+    <value>File cung cấp không hợp lệ, chỉ nhận file xlsx.</value>
+  </data>
+  <data name="InValidMsg_FullNameRequired" xml:space="preserve">
+    <value>Họ tên không được để trống.</value>
+  </data>
+  <data name="InValidMsg_FullNameTooLong" xml:space="preserve">
+    <value>Họ tên không quá 100 kí tự.</value>
+  </data>
+  <data name="InValidMsg_IdentityNumberTooLong" xml:space="preserve">
+    <value>Căn cước công dân không được quá 25 kí tự</value>
+  </data>
+  <data name="InValidMsg_IdentityPlaceTooLong" xml:space="preserve">
+    <value>Nơi cấp không được vượt quá 100 kí tự </value>
+  </data>
+  <data name="InValidMsg_ImportDataNotExistInCache" xml:space="preserve">
+    <value>Dữ liệu nhập khẩu bị xóa khỏi Cache</value>
+  </data>
+  <data name="InValidMsg_ImportTImeOut" xml:space="preserve">
+    <value>Phiên nhập khẩu dữ liệu hết hạn</value>
+  </data>
+  <data name="InValidMsg_InValidDateOfBirth" xml:space="preserve">
+    <value>Ngày sinh không được lớn hơn ngày hiện tại</value>
+  </data>
+  <data name="InValidMsg_InvalidEmail" xml:space="preserve">
+    <value>Email không hợp lệ.</value>
+  </data>
+  <data name="InValidMsg_InValidIdentityDate" xml:space="preserve">
+    <value>Ngày cấp không được lớn hơn ngày hiện tại</value>
+  </data>
+  <data name="InValidMsg_InValidInformation" xml:space="preserve">
+    <value>Thông tin không chính xác.</value>
+  </data>
+  <data name="InValidMsg_InValidInput" xml:space="preserve">
+    <value>Lỗi nhập liệu.</value>
+  </data>
+  <data name="InValidMsg_InvalidPrefixEmployeeCode" xml:space="preserve">
+    <value>Mã nhân viên phải bắt đầu với tiền tố "NV-"</value>
+  </data>
+  <data name="InValidMsg_InvalidSuffixEmployeeCode" xml:space="preserve">
+    <value>Hậu tố của mã nhân viên phải là các chữ số</value>
+  </data>
+  <data name="InValidMsg_LoginInfomation" xml:space="preserve">
+    <value>Tên đăng nhập hoặc mật khẩu không đúng</value>
+  </data>
+  <data name="InValidMsg_NotExistInput" xml:space="preserve">
+    <value>Lỗi dữ liệu không tồn tại.</value>
+  </data>
+  <data name="InValidMsg_OnlyNumberIdentityNumber" xml:space="preserve">
+    <value>Số căn cước chỉ được chứa ký tự số.</value>
+  </data>
+  <data name="InValidMsg_OnlyNumberPhone" xml:space="preserve">
+    <value>Số điện thoại chỉ được chứa ký tự số.</value>
+  </data>
+  <data name="InValidMsg_PasswordRequired" xml:space="preserve">
+    <value>Mật khẩu không được để trống</value>
+  </data>
+  <data name="InValidMsg_PhoneNumberTooLong" xml:space="preserve">
+    <value>Số điện thoại không được vượt quá 15 kí tự</value>
+  </data>
+  <data name="InValidMsg_PositionCodeRequired" xml:space="preserve">
+    <value>Mã vị trí / chức vụ không được để trống.</value>
+  </data>
+  <data name="InValidMsg_PositionCodeTooLong" xml:space="preserve">
+    <value>Mã vị trí / chức vụ không được quá 20 kí tự.</value>
+  </data>
+  <data name="InValidMsg_PositionInvalid" xml:space="preserve">
+    <value>Vị trí không hợp lệ</value>
+  </data>
+  <data name="InValidMsg_PositionNameRequired" xml:space="preserve">
+    <value>Tên chức vụ không được để trống.</value>
+  </data>
+  <data name="InValidMsg_SystemError" xml:space="preserve">
+    <value>Lỗi hệ thống</value>
+  </data>
+  <data name="InValidMsg_UnauthorizedUser" xml:space="preserve">
+    <value>Token không hợp lệ</value>
+  </data>
+  <data name="InValidMsg_UserNameRequired" xml:space="preserve">
+    <value>Tên đăng nhập không được bỏ trống</value>
+  </data>
+</root>
